@@ -461,6 +461,7 @@ nav ul li img{
     display: flex;
     float: right;
     height: 6rem;
+    width: 100%;
     background-color: #EAAE00;
     margin: 2rem 0;
     margin-left: 100%;
@@ -469,7 +470,7 @@ nav ul li img{
     outline: none;
     border: none;
     background-color: #EAAE00;
-    width: 40rem;
+    width: 100%;
     padding: 2rem;
     font-size: 2rem;
 }
