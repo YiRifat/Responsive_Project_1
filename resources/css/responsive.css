@@ -1,0 +1,443 @@
+/** X-Small devices (portrait phones, less than 576px) */
+/** No media query for `xs` since this is the default in Bootstrap */
+
+/*todo XX-Large devices (larger desktops, 1400px and less) */
+@media (max-width: 1400px) { 
+    
+}
+
+/*todo X-Large devices (large desktops, 1200px and less) */
+@media (max-width: 1200px) { 
+    .header-section .row .btn{
+        font-size: 1.2rem;
+    }
+    .header-section .row .hsp2 img{
+        position: relative;
+        left: 8rem;
+    }
+    .second-section .row .ssp1{
+        padding-top: 0;
+    }
+    .footer .email-box{
+        height: 4rem;
+    }
+    .footer .email-box input{
+        width: 35rem;
+    }
+    .footer .email-box .mail-btn i{
+        font-size: 2.5rem;
+    }
+
+}
+
+/*todo XX-Large devices (desktops, 1024px and less) */
+@media (max-width: 1024px) { 
+    .header-section .row .btn{
+        margin-right: 10rem;
+    }
+}
+
+/*todo Large devices (desktops, 992px and less) */
+@media (max-width: 992px) { 
+    h1{
+        font-size: 4.6rem;
+    }
+    h2{
+        font-size: 3.6rem; 
+    }
+    h3{
+        font-size: 2.8rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+    }
+    .header-section .row h1{
+        font-size: 4.6rem;
+    }
+    .header-section .row p{
+        font-size: 1.8rem;
+    }
+    .header-section .row a.btn{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+    .header-section .row .hsp2 img{
+        position: relative;
+        left: 8rem;
+    }
+    .second-section .row .ssp1{
+        padding-top: 0;
+    }
+    .second-section .row .ssp1 h2{
+        font-size: 3.6rem;
+    }
+    .second-section .row .ssp1 p{
+        font-size: 1.8rem;
+    }
+    .second-section .row .ssp1 .btn{
+        font-size: 1.2rem;
+    }
+    .third-section .upper-part p{
+        font-size: 1.8rem;
+    }
+    .third-section .lower-part p{
+        font-size: 1.4rem;
+    }
+    .forth-section .row .fsp2 p{
+        font-size: 1.8rem;
+    }
+    .fifth-section .upper-part p{
+        font-size: 1.8rem;
+    }
+    .sixth-section .upper-part p{
+        font-size: 1.8rem;
+    }
+    .sixth-section .lower-part .mini-box p{
+        font-size: 1.8rem;
+    }
+    .eighth-section .upper-part h1{
+        font-size: 3.6rem;
+    }
+    .eighth-section .upper-part p{
+        font-size: 1.8rem;
+    }
+    .eighth-section .lower-part .cards h4{
+        font-size: 1.8rem;
+    }
+    .eighth-section .lower-part .cards .date{
+        font-size: 1.4rem;
+    }
+    .footer ul li{
+        font-size: 1.6rem;
+    }
+    .footer .email-box{
+        height: 4rem;
+    }
+    .footer .email-box input#email{
+        width: 30rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    .footer .email-box .mail-btn i{
+        font-size: 2.5rem;
+    }
+    .footer .title .footer-icons ul li a{
+        font-size: 2.4rem;
+    }
+}
+
+/*todo ( 853 and less) */
+@media (max-width: 853px) { 
+    .header-section .row .btn{
+        padding: 1rem 1rem;
+    }
+}
+
+/*todo Medium devices (tablets, 768px and less) */
+@media (max-width: 768px) { 
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 3.2rem; 
+    }
+    h3{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .header-section{
+        padding-top: 10rem;
+    }
+    .header-section .row h1{
+        font-size: 3.8rem;
+    }
+    .header-section .row p{
+        font-size: 1.4rem;
+    }
+    .header-section .row a.btn{
+        font-size: 1rem;
+    }
+    .header-section .row .btn2{
+        margin-left: 1.5rem;
+    }
+    .header-section .row .hsp2 img{
+        position: relative;
+        left: 5rem;
+        top: 2rem;
+        width: 65%;
+    }
+    .second-section .row .ssp1{
+        padding-top: 0;
+    }
+    .second-section .row .ssp1 h2{
+        font-size: 3.2rem;
+    }
+    .second-section .row .ssp1 p{
+        font-size: 1.4rem;
+    }
+    .second-section .row .ssp1 .btn{
+        font-size: 1rem;
+    }
+    .third-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .third-section .lower-part p{
+        font-size: 1.2rem;
+    }
+    .forth-section .row .fsp2 p{
+        font-size: 1.4rem;
+    }
+    .fifth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .sixth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .sixth-section .lower-part .mini-box p{
+        font-size: 1.4rem;
+    }
+    .eighth-section .upper-part h1{
+        font-size: 3.6rem;
+    }
+    .eighth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .eighth-section .lower-part .cards h4{
+        font-size: 1.2rem;
+    }
+    .eighth-section .lower-part .cards .date{
+        font-size: 1rem;
+    }
+    .eighth-section .lower-part .cards .info{
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    .eighth-section .lower-part .cards .more{
+        font-size: 1.2rem;
+    }
+    .footer ul li{
+        font-size: 1.2rem;
+    }
+    .footer .email-box{
+        height: 3.5rem;
+    }
+    .footer .email-box input#email{
+        width: 25rem;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    .footer .email-box .mail-btn{
+        width: 4rem;
+    }
+    .footer .email-box .mail-btn i{
+        font-size: 2rem;
+    }
+    .footer .title .footer-icons ul li{
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        margin: 0 .5rem;
+    }
+    .footer .title .footer-icons ul li a{
+        font-size: 2rem;
+    }
+}
+
+/*todo Small devices (landscape phones, 576px and less) */
+@media (max-width: 576px) {
+    .sixth-section .lower-part ul li{
+        margin: 1% 3%;
+    }
+    .eighth-section .lower-part .cards{
+        padding: 1rem;
+    }
+    .footer .email-box{
+        width: 100%;
+        height: 3rem;
+        padding-right: 0;
+        border: none;
+        outline: none;
+    }
+    .footer .email-box input#email{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+/*todo Small devices (Phones, 480px and less) */
+@media (max-width: 480px) { 
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3.2rem; 
+    }
+    h3{
+        font-size: 2.6rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .btn{
+        font-size: 1.2rem;
+    }
+    .header-section{
+        padding-top: 10rem;
+    }
+    .header-section .row h1{
+        font-size: 4rem;
+    }
+    .header-section .row p{
+        font-size: 1.6rem;
+    }
+    .header-section .row .header-btns{
+        width: 50%;
+    }
+    .header-section .row a.btn{
+        font-size: 1.2rem;
+    }
+    .header-section .row .btn2{
+        position: relative;
+        right: 6rem;
+    }
+    .header-section .row .hsp2 img{
+        position: relative;
+        left: 2rem;
+        width: 65%;
+    }
+    .second-section .row .ssp1{
+        padding-top: 0;
+    }
+    .second-section .row .ssp1 h2{
+        font-size: 3.2rem;
+    }
+    .second-section .row .ssp1 p{
+        font-size: 1.4rem;
+    }
+    .second-section .row .ssp1 .btn{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .second-section .row .ssp2{
+        text-align: center;
+    }
+    .third-section .upper-part{
+        width: 80%;
+        padding-bottom: 3rem;
+    }
+    .third-section .upper-part h1{
+        margin-top: 0;
+    }
+    .third-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .third-section .lower-part p{
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+    }
+    .forth-section .row .fsp1{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .forth-section .row .fsp2 p{
+        font-size: 1.4rem;
+    }
+    .fifth-section .upper-part{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+    .fifth-section .upper-part h1{
+        margin: 0;
+    }
+    .fifth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .sixth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .fifth-section .lower-part h3{
+        margin: 0;
+    }
+    .fifth-section .lower-part .mini-box{
+        padding-bottom: 1rem;
+    }
+    .sixth-section .upper-part{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+    .sixth-section .lower-part .mini-box{
+        padding-bottom: 2rem;
+    }
+    .sixth-section .lower-part .mini-box p{
+        font-size: 1.4rem;
+    }
+    .seventh-section .row .mini-box{
+        padding-bottom: 2.5rem;
+    }
+    .eighth-section .upper-part{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+    .eighth-section .upper-part h1{
+        font-size: 3.6rem;
+    }
+    .eighth-section .upper-part p{
+        font-size: 1.4rem;
+    }
+    .eighth-section .lower-part .cards h4{
+        font-size: 1.6rem;
+    }
+    .eighth-section .lower-part .cards .date{
+        font-size: 1.3rem;
+    }
+    .eighth-section .lower-part .cards .info{
+        font-size: 1.3rem;
+        padding: 1rem 0;
+    }
+    .eighth-section .lower-part .cards .more{
+        font-size: 1.4rem;
+    }
+    .footer .footer-box{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer ul li{
+        font-size: 1.2rem;
+    }
+    .footer .email-box{
+        height: 3.5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding-right: 0;
+    }
+    .footer .email-box input#email{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    .footer .email-box .mail-btn{
+        width: 4rem;
+    }
+    .footer .email-box .mail-btn i{
+        font-size: 2rem;
+    }
+    .footer .title .footer-icons ul li{
+        height: 3rem;
+        width: 3rem;
+        line-height: 3rem;
+        margin: 0 .5rem;
+    }
+    .footer .title .footer-icons ul li a{
+        font-size: 2rem;
+    }
+}
+
+
