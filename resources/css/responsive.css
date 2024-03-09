@@ -104,6 +104,9 @@
     .eighth-section .upper-part p{
         font-size: 1.8rem;
     }
+    .eighth-section .lower-part .cards{
+        padding: 1.5rem;
+    }
     .eighth-section .lower-part .cards h4{
         font-size: 1.8rem;
     }
